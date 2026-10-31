@@ -1,0 +1,1 @@
+import{i as e}from"./LocaleProvider-DXsN-fPI.js";async function t(t){let{data:n,error:r}=await e.from(`users`).select(`account_id`).eq(`id`,t).maybeSingle();if(r)throw r;return n?.account_id}export{t};
